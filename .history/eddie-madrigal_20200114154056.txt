@@ -77,12 +77,8 @@ To understand the Lambda git flow, we need to think of files and folders as obje
 
 Stretch Questions
 
-1. What is the difference between an inline element and a block element?
-An inline element is an element that can be positioned to the right or left of other elements.  A span would be considered an inline element, as we can add it on top, below, to the right or left of another element.
-2. What happens when an element is positioned absolutely? 
-The position when set to absolute deals with how an element will be displayed on the screen relative to the nearest positioned parent (ancestor). <div style="position: relative; height: 400px; width: 400px;"><div style="position: absolute; right: 0; top 100px; width: 50px; height: 50px;">This box is 100px from the top of the parent container and 0px from the right.</div></div>
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-To give an element the space it needs, a width in percentage can be given.  This will allow the element to adjust as needed with respect to its surroundings.
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-The following three elements are display block by default: div, p and img.  Inline elements would include a, span. An example of an element that is inline-block by default is button.
-5. In your own words, explain the box model. What is the fix for the box model? The box model is used to help developers understand the layout of elements.  A line of text in a paragraph, for example, can have padding aournd the text (like the area between a chair in a room and the ceiling), margin (equivalent to the space between rooms), borders (equivalent to walls), and so forth.  To overcome default box-model settings, CSS can be used to target elements to change their look.
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model?
