@@ -61,28 +61,17 @@ In CSS, you can use a universal selector: * {  }
 30. How do I write a comment in CSS?
 Comments in CSS use the forward slash with asterisks: /* this is a comment */
 31. How do I find out what file I am in, when I am using the command line? 
-To find out where you are in the command line, type: pwd  This will print your the working directory, the directory you're currently on.
 32. Using the command line - how do I see a list of files/folders in my current folder?
-A list of files and folders can be seen through the use of the line command: ls
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
-To remove the file using the command line, use: rm [filename].  Care should be taken when using this command because it is permanent and there is no warning.
 34. Why should I use version control? 
-Version control is used to help people work on various tasks of project with in a file safe manner.  All versions of a particular document or folder can be accessed at any time.
 35. How often should I commit to github?
-Commits should be done frequently to keep the team up to speed on progress.
 36. What is the command we would use to push our repo up to github? 
-The command used to get our repo to github is: git push origin <branch-name>
 37. Walk me through Lambda's git flow. 
-To understand the Lambda git flow, we need to think of files and folders as objects that have different stages of development associated with each of them.  Lambda has a repo on GitHub.  We need a copy of it, so we fork to our GitHub account.  Then, we need to clone that repo to our local machine so we can do work on the repo on our computers.  Before directly working on the master copy (branch), we should first create a branch that is not the master so that if we make a mistake, the mistake is done on a branch and not on the original cloan (the master).  When we are done editing a file on our branch, we can then push that branch to our GitHub account.  This will allow us to share with reviewers, collaborators, etc. our work. Once all of the edits have been made and we are satisfied with the non-master branch, we can request a pull our branch to our master on OUR GitHub repo.
 
 Stretch Questions
 
-1. What is the difference between an inline element and a block element?
-An inline element is an element that can be positioned to the right or left of other elements.  A span would be considered an inline element, as we can add it on top, below, to the right or left of another element.
-2. What happens when an element is positioned absolutely? 
-The position when set to absolute deals with how an element will be displayed on the screen relative to the nearest positioned parent (ancestor). <div style="position: relative; height: 400px; width: 400px;"><div style="position: absolute; right: 0; top 100px; width: 50px; height: 50px;">This box is 100px from the top of the parent container and 0px from the right.</div></div>
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-To give an element the space it needs, a width in percentage can be given.  This will allow the element to adjust as needed with respect to its surroundings.
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-The following three elements are display block by default: div, p and img.  Inline elements would include a, span. An example of an element that is inline-block by default is button.
-5. In your own words, explain the box model. What is the fix for the box model? The box model is used to help developers understand the layout of elements.  A line of text in a paragraph, for example, can have padding aournd the text (like the area between a chair in a room and the ceiling), margin (equivalent to the space between rooms), borders (equivalent to walls), and so forth.  To overcome default box-model settings, CSS can be used to target elements to change their look.
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model?
